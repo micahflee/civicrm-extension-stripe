@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <extension key="org.eff.payment.stripe" type="payment">
+  <file>Stripe</file>
+  <name>Stripe</name>
+  <description>Stripe Payment Processor</description>
+  <urls>
+    <url desc="Main Extension Page"></url>
+    <url desc="Documentation"></url>
+    <url desc="Support"></url>
+    <url desc="Licensing"></url>
+  </urls>
+  <license>AGPLv3</license>
+  <maintainer>
+    <author>Micah Lee</author>
+    <email>micah@eff.org</email>
+  </maintainer>
+  <releaseDate>2012-12-21</releaseDate>
+  <version>1.0</version>
+  <develStage>development</develStage>
+  <compatibility><ver>4.1</ver></compatibility>
+  <comments></comments>
+  <typeInfo>
+   <userNameLabel>Publishable Key</userNameLabel>
+   <passwordLabel>Secret Key</passwordLabel>
+   <signatureLabel></signatureLabel>
+   <subjectLabel></subjectLabel>
+   <urlSiteDefault>https://js.stripe.com/v1/</urlSiteDefault>
+   <urlApiDefault></urlApiDefault>
+   <urlRecurDefault></urlRecurDefault>
+   <urlSiteTestDefault></urlSiteTestDefault>
+   <urlApiTestDefault></urlApiTestDefault>
+   <urlRecurTestDefault></urlRecurTestDefault>
+   <urlButtonDefault></urlButtonDefault>
+   <urlButtonTestDefault></urlButtonTestDefault>
+   <billingMode>button</billingMode>
+   <isRecur>1</isRecur>
+   <paymentType>1</paymentType>
+  </typeInfo>
+</extension>
