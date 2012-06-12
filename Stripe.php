@@ -6,6 +6,7 @@ class org_eff_payment_stripe extends CRM_Core_Payment {
 
     static private $_singleton = null;
     static protected $_mode = null;
+    static protected $_params = array();
 
     /**
     * Constructor
@@ -65,8 +66,8 @@ class org_eff_payment_stripe extends CRM_Core_Payment {
     function doDirectPayment(&$params) {
         CRM_Core_Error::fatal(ts('This function is not implemented'));
     }
-
-    function doTransferCheckout( &$params, $component ) {
+    
+    function doRecurPayment(&$params) {
         CRM_Core_Error::fatal(ts('This function is not implemented'));
     }
 }
