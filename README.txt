@@ -1,6 +1,8 @@
 Stripe Payment Processor for CiviCRM
 ====================================
 
+Note: This is in development and doesn't work yet
+
 Installation instructions:
 
 1. Set up a custom extensions and a custom templates directory in CiviCRM by go
